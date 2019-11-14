@@ -20,7 +20,7 @@ gcloud pubsub topics create $SERVICE_NAME
 # BigQuery
 bq mk $SERVICE_NAME
 #bq mk --schema id:string,repo:string,type:string,actor:string,event_time:timestamp,countable:boolean \
-bq mk --schema github-events.schema -t "${SERVICE_NAME}.events"
+bq mk --schema ${DIR}/github-event.schema -t "${SERVICE_NAME}.events"
 
 # Dataflow
 gcloud dataflow jobs run $SERVICE_NAME \

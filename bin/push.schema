@@ -1,0 +1,679 @@
+[
+  {
+    "name": "ref",
+    "type": "STRING"
+  },
+  {
+    "name": "before",
+    "type": "STRING"
+  },
+  {
+    "name": "after",
+    "type": "STRING"
+  },
+  {
+    "name": "repository",
+    "type": "record",
+    "fields": [
+      {
+        "name": "id",
+        "type": "INTEGER"
+      },
+      {
+        "name": "node_id",
+        "type": "STRING"
+      },
+      {
+        "name": "name",
+        "type": "STRING"
+      },
+      {
+        "name": "full_name",
+        "type": "STRING"
+      },
+      {
+        "name": "private",
+        "type": "BOOLEAN"
+      },
+      {
+        "name": "owner",
+        "type": "record",
+        "fields": [
+          {
+            "name": "name",
+            "type": "STRING"
+          },
+          {
+            "name": "email",
+            "type": "STRING"
+          },
+          {
+            "name": "login",
+            "type": "STRING"
+          },
+          {
+            "name": "id",
+            "type": "INTEGER"
+          },
+          {
+            "name": "node_id",
+            "type": "STRING"
+          },
+          {
+            "name": "avatar_url",
+            "type": "STRING"
+          },
+          {
+            "name": "gravatar_id",
+            "type": "STRING"
+          },
+          {
+            "name": "url",
+            "type": "STRING"
+          },
+          {
+            "name": "html_url",
+            "type": "STRING"
+          },
+          {
+            "name": "followers_url",
+            "type": "STRING"
+          },
+          {
+            "name": "following_url",
+            "type": "STRING"
+          },
+          {
+            "name": "gists_url",
+            "type": "STRING"
+          },
+          {
+            "name": "starred_url",
+            "type": "STRING"
+          },
+          {
+            "name": "subscriptions_url",
+            "type": "STRING"
+          },
+          {
+            "name": "organizations_url",
+            "type": "STRING"
+          },
+          {
+            "name": "repos_url",
+            "type": "STRING"
+          },
+          {
+            "name": "events_url",
+            "type": "STRING"
+          },
+          {
+            "name": "received_events_url",
+            "type": "STRING"
+          },
+          {
+            "name": "type",
+            "type": "STRING"
+          },
+          {
+            "name": "site_admin",
+            "type": "BOOLEAN"
+          }
+        ]
+      },
+      {
+        "name": "html_url",
+        "type": "STRING"
+      },
+      {
+        "name": "description",
+        "type": "STRING"
+      },
+      {
+        "name": "fork",
+        "type": "BOOLEAN"
+      },
+      {
+        "name": "url",
+        "type": "STRING"
+      },
+      {
+        "name": "forks_url",
+        "type": "STRING"
+      },
+      {
+        "name": "keys_url",
+        "type": "STRING"
+      },
+      {
+        "name": "collaborators_url",
+        "type": "STRING"
+      },
+      {
+        "name": "teams_url",
+        "type": "STRING"
+      },
+      {
+        "name": "hooks_url",
+        "type": "STRING"
+      },
+      {
+        "name": "issue_events_url",
+        "type": "STRING"
+      },
+      {
+        "name": "events_url",
+        "type": "STRING"
+      },
+      {
+        "name": "assignees_url",
+        "type": "STRING"
+      },
+      {
+        "name": "branches_url",
+        "type": "STRING"
+      },
+      {
+        "name": "tags_url",
+        "type": "STRING"
+      },
+      {
+        "name": "blobs_url",
+        "type": "STRING"
+      },
+      {
+        "name": "git_tags_url",
+        "type": "STRING"
+      },
+      {
+        "name": "git_refs_url",
+        "type": "STRING"
+      },
+      {
+        "name": "trees_url",
+        "type": "STRING"
+      },
+      {
+        "name": "statuses_url",
+        "type": "STRING"
+      },
+      {
+        "name": "languages_url",
+        "type": "STRING"
+      },
+      {
+        "name": "stargazers_url",
+        "type": "STRING"
+      },
+      {
+        "name": "contributors_url",
+        "type": "STRING"
+      },
+      {
+        "name": "subscribers_url",
+        "type": "STRING"
+      },
+      {
+        "name": "subscription_url",
+        "type": "STRING"
+      },
+      {
+        "name": "commits_url",
+        "type": "STRING"
+      },
+      {
+        "name": "git_commits_url",
+        "type": "STRING"
+      },
+      {
+        "name": "comments_url",
+        "type": "STRING"
+      },
+      {
+        "name": "issue_comment_url",
+        "type": "STRING"
+      },
+      {
+        "name": "contents_url",
+        "type": "STRING"
+      },
+      {
+        "name": "compare_url",
+        "type": "STRING"
+      },
+      {
+        "name": "merges_url",
+        "type": "STRING"
+      },
+      {
+        "name": "archive_url",
+        "type": "STRING"
+      },
+      {
+        "name": "downloads_url",
+        "type": "STRING"
+      },
+      {
+        "name": "issues_url",
+        "type": "STRING"
+      },
+      {
+        "name": "pulls_url",
+        "type": "STRING"
+      },
+      {
+        "name": "milestones_url",
+        "type": "STRING"
+      },
+      {
+        "name": "notifications_url",
+        "type": "STRING"
+      },
+      {
+        "name": "labels_url",
+        "type": "STRING"
+      },
+      {
+        "name": "releases_url",
+        "type": "STRING"
+      },
+      {
+        "name": "deployments_url",
+        "type": "STRING"
+      },
+      {
+        "name": "created_at",
+        "type": "INTEGER"
+      },
+      {
+        "name": "updated_at",
+        "type": "TIMESTAMP"
+      },
+      {
+        "name": "pushed_at",
+        "type": "INTEGER"
+      },
+      {
+        "name": "git_url",
+        "type": "STRING"
+      },
+      {
+        "name": "ssh_url",
+        "type": "STRING"
+      },
+      {
+        "name": "clone_url",
+        "type": "STRING"
+      },
+      {
+        "name": "svn_url",
+        "type": "STRING"
+      },
+      {
+        "name": "homepage",
+        "type": "STRING"
+      },
+      {
+        "name": "size",
+        "type": "INTEGER"
+      },
+      {
+        "name": "stargazers_count",
+        "type": "INTEGER"
+      },
+      {
+        "name": "watchers_count",
+        "type": "INTEGER"
+      },
+      {
+        "name": "language",
+        "type": "STRING"
+      },
+      {
+        "name": "has_issues",
+        "type": "BOOLEAN"
+      },
+      {
+        "name": "has_projects",
+        "type": "BOOLEAN"
+      },
+      {
+        "name": "has_downloads",
+        "type": "BOOLEAN"
+      },
+      {
+        "name": "has_wiki",
+        "type": "BOOLEAN"
+      },
+      {
+        "name": "has_pages",
+        "type": "BOOLEAN"
+      },
+      {
+        "name": "forks_count",
+        "type": "INTEGER"
+      },
+      {
+        "name": "mirror_url",
+        "type": "STRING"
+      },
+      {
+        "name": "archived",
+        "type": "BOOLEAN"
+      },
+      {
+        "name": "disabled",
+        "type": "BOOLEAN"
+      },
+      {
+        "name": "open_issues_count",
+        "type": "INTEGER"
+      },
+      {
+        "name": "license",
+        "type": "record",
+        "fields": [
+          {
+            "name": "key",
+            "type": "STRING"
+          },
+          {
+            "name": "name",
+            "type": "STRING"
+          },
+          {
+            "name": "spdx_id",
+            "type": "STRING"
+          },
+          {
+            "name": "url",
+            "type": "STRING"
+          },
+          {
+            "name": "node_id",
+            "type": "STRING"
+          }
+        ]
+      },
+      {
+        "name": "forks",
+        "type": "INTEGER"
+      },
+      {
+        "name": "open_issues",
+        "type": "INTEGER"
+      },
+      {
+        "name": "watchers",
+        "type": "INTEGER"
+      },
+      {
+        "name": "default_branch",
+        "type": "STRING"
+      },
+      {
+        "name": "stargazers",
+        "type": "INTEGER"
+      },
+      {
+        "name": "master_branch",
+        "type": "STRING"
+      }
+    ]
+  },
+  {
+    "name": "pusher",
+    "type": "record",
+    "fields": [
+      {
+        "name": "name",
+        "type": "STRING"
+      },
+      {
+        "name": "email",
+        "type": "STRING"
+      }
+    ]
+  },
+  {
+    "name": "sender",
+    "type": "record",
+    "fields": [
+      {
+        "name": "login",
+        "type": "STRING"
+      },
+      {
+        "name": "id",
+        "type": "INTEGER"
+      },
+      {
+        "name": "node_id",
+        "type": "STRING"
+      },
+      {
+        "name": "avatar_url",
+        "type": "STRING"
+      },
+      {
+        "name": "gravatar_id",
+        "type": "STRING"
+      },
+      {
+        "name": "url",
+        "type": "STRING"
+      },
+      {
+        "name": "html_url",
+        "type": "STRING"
+      },
+      {
+        "name": "followers_url",
+        "type": "STRING"
+      },
+      {
+        "name": "following_url",
+        "type": "STRING"
+      },
+      {
+        "name": "gists_url",
+        "type": "STRING"
+      },
+      {
+        "name": "starred_url",
+        "type": "STRING"
+      },
+      {
+        "name": "subscriptions_url",
+        "type": "STRING"
+      },
+      {
+        "name": "organizations_url",
+        "type": "STRING"
+      },
+      {
+        "name": "repos_url",
+        "type": "STRING"
+      },
+      {
+        "name": "events_url",
+        "type": "STRING"
+      },
+      {
+        "name": "received_events_url",
+        "type": "STRING"
+      },
+      {
+        "name": "type",
+        "type": "STRING"
+      },
+      {
+        "name": "site_admin",
+        "type": "BOOLEAN"
+      }
+    ]
+  },
+  {
+    "name": "created",
+    "type": "BOOLEAN"
+  },
+  {
+    "name": "deleted",
+    "type": "BOOLEAN"
+  },
+  {
+    "name": "forced",
+    "type": "BOOLEAN"
+  },
+  {
+    "name": "base_ref",
+    "type": "STRING"
+  },
+  {
+    "name": "compare",
+    "type": "STRING"
+  },
+  {
+    "name": "commits",
+    "type": "record",
+    "mode": "repeated",
+    "fields": [
+      {
+        "name": "id",
+        "type": "STRING"
+      },
+      {
+        "name": "tree_id",
+        "type": "STRING"
+      },
+      {
+        "name": "distinct",
+        "type": "BOOLEAN"
+      },
+      {
+        "name": "message",
+        "type": "TIMESTAMP"
+      },
+      {
+        "name": "timestamp",
+        "type": "TIMESTAMP"
+      },
+      {
+        "name": "url",
+        "type": "STRING"
+      },
+      {
+        "name": "author",
+        "type": "record",
+        "fields": [
+          {
+            "name": "name",
+            "type": "STRING"
+          },
+          {
+            "name": "email",
+            "type": "STRING"
+          },
+          {
+            "name": "username",
+            "type": "STRING"
+          }
+        ]
+      },
+      {
+        "name": "committer",
+        "type": "record",
+        "fields": [
+          {
+            "name": "name",
+            "type": "STRING"
+          },
+          {
+            "name": "email",
+            "type": "STRING"
+          },
+          {
+            "name": "username",
+            "type": "STRING"
+          }
+        ]
+      },
+      {
+        "name": "added",
+        "type": "STRING",
+        "mode": "repeated"
+      }
+    ]
+  },
+  {
+    "name": "head_commit",
+    "type": "record",
+    "fields": [
+      {
+        "name": "id",
+        "type": "STRING"
+      },
+      {
+        "name": "tree_id",
+        "type": "STRING"
+      },
+      {
+        "name": "distinct",
+        "type": "BOOLEAN"
+      },
+      {
+        "name": "message",
+        "type": "STRING"
+      },
+      {
+        "name": "timestamp",
+        "type": "TIMESTAMP"
+      },
+      {
+        "name": "url",
+        "type": "STRING"
+      },
+      {
+        "name": "author",
+        "type": "record",
+        "fields": [
+          {
+            "name": "name",
+            "type": "STRING"
+          },
+          {
+            "name": "email",
+            "type": "STRING"
+          },
+          {
+            "name": "username",
+            "type": "STRING"
+          }
+        ]
+      },
+      {
+        "name": "committer",
+        "type": "record",
+        "fields": [
+          {
+            "name": "name",
+            "type": "STRING"
+          },
+          {
+            "name": "email",
+            "type": "STRING"
+          },
+          {
+            "name": "username",
+            "type": "STRING"
+          }
+        ]
+      },
+      {
+        "name": "added",
+        "type": "STRING",
+        "mode": "repeated"
+      }
+    ]
+  }
+]
