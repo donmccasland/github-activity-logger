@@ -1,0 +1,13 @@
+#!/bin/bash
+
+DIR="$(dirname "$0")"
+. "${DIR}/config"
+
+
+SERVICE_URL=$(gcloud beta run services describe $SERVICE_NAME \
+    --region $SERVICE_REGION \
+    --platform managed \
+    --format "value(status.domain)")
+
+echo "POST:"
+echo "${SERVICE_URL}/v1/github"

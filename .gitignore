@@ -1,0 +1,10 @@
+# Mac OS X hidden files
+.DS_Store
+
+# Vim swap files
+.*.sw?
+.vscode
+
+# output of bin/build
+bin/app
+github-activity-counter
